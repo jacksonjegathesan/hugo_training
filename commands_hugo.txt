@@ -1,0 +1,16 @@
+hugo new site jackson_hugo_training
+hugo server -D -> to run
+hugo new index.md
+
+used theme
+https://theme-stack.jimmycai.com/
+
+docs
+https://docs.stack.jimmycai.com/getting-started.html
+
+
+need hugo extended for scss
+TOCSS: failed to transform "scss/style.scss" (text/x-scss). Check your Hugo installation; you need the extended version to build SCSS/SASS.
+snap install hugo --channel=extended
+
+http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/

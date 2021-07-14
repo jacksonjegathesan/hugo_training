@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Jackson HUGO Example</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/</link>
+        <description>Recent content on Jackson HUGO Example</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Wed, 14 Jul 2021 20:21:20 +0530</lastBuildDate><atom:link href="http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Basics Python</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/basics-python/</link>
+        <pubDate>Wed, 14 Jul 2021 20:21:20 +0530</pubDate>
+        
+        <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/basics-python/</guid>
+        <description>&lt;img src="https://www.devgap.uk/blog/wp-content/uploads/2019/01/Screenshot-2019-01-26-at-15.43.44-min-1200x673.png" alt="Featured image of post Basics Python" /&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;python-variables&#34;&gt;Python Variables&lt;/h2&gt;
+&lt;p&gt;A variable is a named location used to store data in the memory. It is helpful to think of variables as a container that holds data that can be changed later in the program. For example,&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;number = 10
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here, we have created a variable named  number. We have assigned the value  10  to the variable.&lt;/p&gt;
+&lt;p&gt;You can think of variables as a bag to store books in it and that book can be replaced at any time.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;number = 10
+number = 1.1
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Initially, the value of  number  was  10. Later, it was changed to  1.1.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: In Python, we don&amp;rsquo;t actually assign values to the variables. Instead, Python gives the reference of the object(value) to the variable.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;assigning-values-to-variables-in-python&#34;&gt;Assigning values to Variables in Python&lt;/h2&gt;
+&lt;p&gt;As you can see from the above example, you can use the assignment operator  &lt;code&gt;=&lt;/code&gt;  to assign a value to a variable.&lt;/p&gt;
+&lt;h3 id=&#34;example-1-declaring-and-assigning-value-to-a-variable&#34;&gt;Example 1: Declaring and assigning value to a variable&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;website = &amp;quot;apple.com&amp;quot;
+print(website)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;apple.com&lt;/p&gt;
+&lt;p&gt;In the above program, we assigned a value  apple.com  to the variable  website. Then, we printed out the value assigned to  website  i.e. apple.com&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: Python is a  &lt;a class=&#34;link&#34; href=&#34;https://en.wikipedia.org/wiki/Type_inference&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;type-inferred&lt;/a&gt;  language, so you don&amp;rsquo;t have to explicitly define the variable type. It automatically knows that  apple.com  is a string and declares the  website  variable as a string.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;example-2-changing-the-value-of-a-variable&#34;&gt;Example 2: Changing the value of a variable&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;website = &amp;quot;apple.com&amp;quot;
+print(website)
+
+# assigning a new value to website
+website = &amp;quot;programiz.com&amp;quot;
+
+print(website)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;apple.com
+programiz.com&lt;/p&gt;
+&lt;p&gt;In the above program, we have assigned  apple.com to the  website  variable initially. Then, the value is changed to  programiz.com.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;example-3-assigning-multiple-values-to-multiple-variables&#34;&gt;Example 3: Assigning multiple values to multiple variables&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;a, b, c = 5, 3.2, &amp;quot;Hello&amp;quot;
+
+print (a)
+print (b)
+print (c)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If we want to assign the same value to multiple variables at once, we can do this as:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;x = y = z = &amp;quot;same&amp;quot;
+
+print (x)
+print (y)
+print (z)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The second program assigns the  same  string to all the three variables  x,  y  and  z.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;constants&#34;&gt;Constants&lt;/h2&gt;
+&lt;p&gt;A constant is a type of variable whose value cannot be changed. It is helpful to think of constants as containers that hold information which cannot be changed later.&lt;/p&gt;
+&lt;p&gt;You can think of constants as a bag to store some books which cannot be replaced once placed inside the bag.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;assigning-value-to-constant-in-python&#34;&gt;Assigning value to constant in Python&lt;/h2&gt;
+&lt;p&gt;In Python, constants are usually declared and assigned in a module. Here, the module is a new file containing variables, functions, etc which is imported to the main file. Inside the module, constants are written in all capital letters and underscores separating the words.&lt;/p&gt;
+&lt;h3 id=&#34;example-3-declaring-and-assigning-value-to-a-constant&#34;&gt;Example 3: Declaring and assigning value to a constant&lt;/h3&gt;
+&lt;p&gt;Create a  &lt;strong&gt;constant.py&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;PI = 3.14
+GRAVITY = 9.8
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Create a  &lt;strong&gt;main.py&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import constant
+
+print(constant.PI)
+print(constant.GRAVITY)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;3.14
+9.8&lt;/p&gt;
+&lt;p&gt;In the above program, we create a  &lt;strong&gt;constant.py&lt;/strong&gt;  module file. Then, we assign the constant value to  PI  and  GRAVITY. After that, we create a  &lt;strong&gt;main.py&lt;/strong&gt;  file and import the  &lt;code&gt;constant&lt;/code&gt;  module. Finally, we print the constant value.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: In reality, we don&amp;rsquo;t use constants in Python. Naming them in all capital letters is a convention to separate them from variables, however, it does not actually prevent reassignment.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;rules-and-naming-convention-for-variables-and-constants&#34;&gt;Rules and Naming Convention for Variables and constants&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Constant and variable names should have a combination of letters in lowercase (a to z) or uppercase (&lt;strong&gt;A to Z&lt;/strong&gt;) or digits (&lt;strong&gt;0 to 9&lt;/strong&gt;) or an underscore (&lt;strong&gt;_&lt;/strong&gt;). For example:&lt;/p&gt;
+&lt;p&gt;snake_case
+MACRO_CASE
+camelCase
+CapWords&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a name that makes sense. For example, vowel  makes more sense than  v.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you want to create a variable name having two words, use underscore to separate them. For example:&lt;/p&gt;
+&lt;p&gt;my_name
+current_salary&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use capital letters possible to declare a constant. For example:&lt;/p&gt;
+&lt;p&gt;PI
+G
+MASS
+SPEED_OF_LIGHT
+TEMP&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Never use special symbols like !, @, #, $, %, etc.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Don&amp;rsquo;t start a variable name with a digit.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;literals&#34;&gt;Literals&lt;/h2&gt;
+&lt;p&gt;Literal is a raw data given in a variable or constant. In Python, there are various types of literals they are as follows:&lt;/p&gt;
+&lt;h2 id=&#34;numeric-literals&#34;&gt;Numeric Literals&lt;/h2&gt;
+&lt;p&gt;Numeric Literals are immutable (unchangeable). Numeric literals can belong to 3 different numerical types:  &lt;code&gt;Integer&lt;/code&gt;,  &lt;code&gt;Float&lt;/code&gt;, and  &lt;code&gt;Complex&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;example-4-how-to-use-numeric-literals-in-python&#34;&gt;Example 4: How to use Numeric literals in Python?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;a = 0b1010 #Binary Literals
+b = 100 #Decimal Literal 
+c = 0o310 #Octal Literal
+d = 0x12c #Hexadecimal Literal
+
+#Float Literal
+float_1 = 10.5 
+float_2 = 1.5e2
+
+#Complex Literal 
+x = 3.14j
+
+print(a, b, c, d)
+print(float_1, float_2)
+print(x, x.imag, x.real)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;10 100 200 300
+10.5 150.0
+3.14j 3.14 0.0&lt;/p&gt;
+&lt;p&gt;In the above program,&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We assigned integer literals into different variables. Here,  a  is binary literal,  b  is a decimal literal,  c  is an octal literal and  d  is a hexadecimal literal.&lt;/li&gt;
+&lt;li&gt;When we print the variables, all the literals are converted into decimal values.&lt;/li&gt;
+&lt;li&gt;10.5  and  1.5e2  are floating-point literals.  1.5e2  is expressed with exponential and is equivalent to  1.5 * 102.&lt;/li&gt;
+&lt;li&gt;We assigned a complex literal i.e  3.14j  in variable  x. Then we use  &lt;strong&gt;imaginary&lt;/strong&gt;  literal (x.imag) and  &lt;strong&gt;real&lt;/strong&gt;  literal (x.real) to create imaginary and real parts of complex numbers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To learn more about Numeric Literals, refer to &lt;a class=&#34;link&#34; href=&#34;https://www.programiz.com/python-programming/numbers&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Python Numbers&lt;/a&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;string-literals&#34;&gt;String literals&lt;/h2&gt;
+&lt;p&gt;A string literal is a sequence of characters surrounded by quotes. We can use both single, double, or triple quotes for a string. And, a character literal is a single character surrounded by single or double quotes.&lt;/p&gt;
+&lt;h3 id=&#34;example-7-how-to-use-string-literals-in-python&#34;&gt;Example 7: How to use string literals in Python?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;strings = &amp;quot;This is Python&amp;quot;
+char = &amp;quot;C&amp;quot;
+multiline_str = &amp;quot;&amp;quot;&amp;quot;This is a multiline string with more than one line code.&amp;quot;&amp;quot;&amp;quot;
+unicode = u&amp;quot;\u00dcnic\u00f6de&amp;quot;
+raw_str = r&amp;quot;raw \n string&amp;quot;
+
+print(strings)
+print(char)
+print(multiline_str)
+print(unicode)
+print(raw_str)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is Python
+C
+This is a multiline string with more than one line code.
+Ünicöde
+raw \n string&lt;/p&gt;
+&lt;p&gt;In the above program,  This is Python  is a string literal and  C  is a character literal.&lt;/p&gt;
+&lt;p&gt;The value in triple-quotes  &lt;code&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/code&gt;  assigned to the  multiline_str  is a multi-line string literal.&lt;/p&gt;
+&lt;p&gt;The string  u&amp;quot;\u00dcnic\u00f6de&amp;quot;  is a Unicode literal which supports characters other than English. In this case,  \u00dc  represents  &lt;code&gt;Ü&lt;/code&gt;  and  \u00f6  represents  &lt;code&gt;ö&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;r&amp;quot;raw \n string&amp;quot;  is a raw string literal.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;boolean-literals&#34;&gt;Boolean literals&lt;/h2&gt;
+&lt;p&gt;A Boolean literal can have any of the two values:  &lt;code&gt;True&lt;/code&gt;  or  &lt;code&gt;False&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;example-8-how-to-use-boolean-literals-in-python&#34;&gt;Example 8: How to use boolean literals in Python?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;x = (1 == True)
+y = (1 == False)
+a = True + 4
+b = False + 10
+
+print(&amp;quot;x is&amp;quot;, x)
+print(&amp;quot;y is&amp;quot;, y)
+print(&amp;quot;a:&amp;quot;, a)
+print(&amp;quot;b:&amp;quot;, b)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;x is True
+y is False
+a: 5
+b: 10&lt;/p&gt;
+&lt;p&gt;In the above program, we use boolean literal  &lt;code&gt;True&lt;/code&gt;  and  &lt;code&gt;False&lt;/code&gt;. In Python,  &lt;code&gt;True&lt;/code&gt;  represents the value as  1  and  &lt;code&gt;False&lt;/code&gt;  as  0. The value of  x  is  &lt;code&gt;True&lt;/code&gt;  because  1  is equal to  &lt;code&gt;True&lt;/code&gt;. And, the value of  y  is  &lt;code&gt;False&lt;/code&gt;  because  1  is not equal to  &lt;code&gt;False&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Similarly, we can use the  &lt;code&gt;True&lt;/code&gt;  and  &lt;code&gt;False&lt;/code&gt;  in numeric expressions as the value. The value of  a  is  5  because we add  &lt;code&gt;True&lt;/code&gt;  which has a value of  1  with  4. Similarly,  b  is  10  because we add the  &lt;code&gt;False&lt;/code&gt;  having value of  0  with  10.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;special-literals&#34;&gt;Special literals&lt;/h2&gt;
+&lt;p&gt;Python contains one special literal i.e.  &lt;code&gt;None&lt;/code&gt;. We use it to specify that the field has not been created.&lt;/p&gt;
+&lt;h3 id=&#34;example-9-how-to-use-special-literals-in-python&#34;&gt;Example 9: How to use special literals in Python?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;drink = &amp;quot;Available&amp;quot;
+food = None
+
+def menu(x):
+    if x == drink:
+        print(drink)
+    else:
+        print(food)
+
+menu(drink)
+menu(food)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Available
+None&lt;/p&gt;
+&lt;p&gt;In the above program, we define a  &lt;code&gt;menu&lt;/code&gt;  function. Inside  &lt;code&gt;menu&lt;/code&gt;, when we set the argument as  &lt;code&gt;drink&lt;/code&gt;  then, it displays  &lt;code&gt;Available&lt;/code&gt;. And, when the argument is  &lt;code&gt;food&lt;/code&gt;, it displays  &lt;code&gt;None&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;literal-collections&#34;&gt;Literal Collections&lt;/h2&gt;
+&lt;p&gt;There are four different literal collections List literals, Tuple literals, Dict literals, and Set literals.&lt;/p&gt;
+&lt;h3 id=&#34;example-10-how-to-use-literals-collections-in-python&#34;&gt;Example 10: How to use literals collections in Python?&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;fruits = [&amp;quot;apple&amp;quot;, &amp;quot;mango&amp;quot;, &amp;quot;orange&amp;quot;] #list
+numbers = (1, 2, 3) #tuple
+alphabets = {&#39;a&#39;:&#39;apple&#39;, &#39;b&#39;:&#39;ball&#39;, &#39;c&#39;:&#39;cat&#39;} #dictionary
+vowels = {&#39;a&#39;, &#39;e&#39;, &#39;i&#39; , &#39;o&#39;, &#39;u&#39;} #set
+
+print(fruits)
+print(numbers)
+print(alphabets)
+print(vowels)
+
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Output&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;[&amp;lsquo;apple&amp;rsquo;, &amp;lsquo;mango&amp;rsquo;, &amp;lsquo;orange&amp;rsquo;]
+(1, 2, 3)
+{&amp;lsquo;a&amp;rsquo;: &amp;lsquo;apple&amp;rsquo;, &amp;lsquo;b&amp;rsquo;: &amp;lsquo;ball&amp;rsquo;, &amp;lsquo;c&amp;rsquo;: &amp;lsquo;cat&amp;rsquo;}
+{&amp;lsquo;e&amp;rsquo;, &amp;lsquo;a&amp;rsquo;, &amp;lsquo;o&amp;rsquo;, &amp;lsquo;i&amp;rsquo;, &amp;lsquo;u&amp;rsquo;}&lt;/p&gt;
+&lt;p&gt;In the above program, we created a list of  fruits, a tuple of  numbers, a dictionary  dict  having values with keys designated to each value and a set of  vowels.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Sea Turtle</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/sea-turtle/</link>
+        <pubDate>Wed, 14 Jul 2021 19:44:20 +0530</pubDate>
+        
+        <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/sea-turtle/</guid>
+        <description>&lt;img src="https://ahead4-thegreatprojects.s3.eu-west-2.amazonaws.com/image-cache/1/1/b/9/c/11b9c9d96deb69058c09a9afed95588984a0f949-what-threats-are-the-sea-turtles-facing-4363.jpeg" alt="Featured image of post Sea Turtle" /&gt;&lt;p&gt;Seven different species of sea (or marine) turtles grace our ocean waters, from the shallow seagrass beds of the Indian Ocean, to the colorful reefs of the Coral Triangle and the sandy beaches of the Eastern Pacific. While these highly migratory species periodically come ashore to either bask or nest, sea turtles spend the bulk of their lives in the ocean. WWF&amp;rsquo;s work on sea turtles focuses on five of those species: green, hawksbill, loggerhead, leatherback, and olive ridley.&lt;/p&gt;
+&lt;p&gt;Over the last 200 years, human activities have tipped the scales against the survival of these ancient mariners. Slaughtered for their eggs, meat, skin, and shells, sea turtles suffer from poaching and over-exploitation. They also face habitat destruction and accidental capture—known as bycatch—in fishing gear. Climate change has an impact on turtle nesting sites; it alters sand temperatures, which then affects the sex of hatchlings. Nearly all species of sea turtle are now classified as endangered, with three of the seven existing species being critically endangered.&lt;/p&gt;
+&lt;p&gt;WWF is committed to stopping the decline of sea turtles and works for the recovery of the species. We work to secure environments in which both turtles and the people that depend upon them can survive.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Whale</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/whale/</link>
+        <pubDate>Wed, 14 Jul 2021 19:44:06 +0530</pubDate>
+        
+        <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/whale/</guid>
+        <description>&lt;img src="https://c402277.ssl.cf1.rackcdn.com/photos/18325/images/hero_full/Humpback_Whale_and_Calf_WW2131047.jpg" alt="Featured image of post Whale" /&gt;&lt;p&gt;Whales roam throughout all of the world&amp;rsquo;s oceans, communicating with complex and mysterious sounds. Their sheer size amazes us: the blue whale can reach lengths of more than 100 feet and weigh up to 200 tons—as much as 33 elephants.&lt;/p&gt;
+&lt;p&gt;Despite living in the water, whales breathe air. And like humans, they are warm-blooded mammals who nurse their young. A thick layer of fat called blubber insulates them from cold ocean waters.&lt;/p&gt;
+&lt;p&gt;Some whales are known as baleen whales, including blue, right, bowhead, sei, and gray whales. This refers to the fact that they have special bristle-like structures in their mouths (called baleen) that strain food from the water. Other whales, such as beluga or sperm whales, have teeth.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PLACES&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/places/southern-chile&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Southern Chile&lt;/a&gt;,  &lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/places/arctic&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Arctic&lt;/a&gt;,  &lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/places/the-galapagos&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Galápagos&lt;/a&gt;,  &lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/places/coral-triangle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Coral Triangle&lt;/a&gt;,  &lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/places/gulf-of-california&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Gulf of California&lt;/a&gt;,  &lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/places/coastal-east-africa&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Coastal East Africa&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;HABITATS&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/habitats/polar-regions&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Polar Regions&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Rhino</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/rhino/</link>
+        <pubDate>Wed, 14 Jul 2021 19:43:57 +0530</pubDate>
+        
+        <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/rhino/</guid>
+        <description>&lt;img src="https://c402277.ssl.cf1.rackcdn.com/photos/18354/images/hero_full/Black_Rhino_WW1106963.jpg" alt="Featured image of post Rhino" /&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/pages/rhino-facts-and-species&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Rhinos&lt;/a&gt;  once roamed many places throughout Europe, Asia, and Africa and were known to early Europeans who depicted them in cave paintings. At the beginning of the 20th century, 500,000 rhinos roamed Africa and Asia. By 1970, rhino numbers dropped to 70,000, and today, around 27,000 rhinos remain in the wild.  &lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/pages/rhino-facts-and-species&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Very few rhinos survive outside national parks and reserves&lt;/a&gt;  due to persistent poaching and habitat loss over many decades. Three species of rhino—black, Javan, and Sumatran—are critically endangered. Today, a small population of Javan rhinos is found in only one national park on the northern tip of the Indonesian island of Java. A mainland subspecies of the Javan rhino was declared extinct in Vietnam in 2011. Successful conservation efforts have led to an increase in the number of greater one-horned (or Indian) rhinos, from around 200 at the turn of the 20th century to around 3,700 today. The greater one-horned rhino is one of Asia’s biggest success stories, with their status improving from endangered to vulnerable following significant population increases. However, the species still remains under threat from poaching for its horn and from habitat loss and degradation.
+&lt;img src=&#34;https://c402277.ssl.cf1.rackcdn.com/photos/18380/images/portrait_overview/Black_Rhino_in_Desert_WW176409.jpg?1576775491&#34; alt=&#34;Diceros bicornis Black rhinoceros Desert species adapted to extremely arid habitat Kaokoland, Namibia.&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/pages/rhino-facts-and-species&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;strong&gt;Learn more about the five different species of rhino.&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In Africa, southern white rhinos, once thought to be extinct, now thrive in protected sanctuaries and are classified as near threatened. But the western black rhino and northern white rhinos have recently become extinct in the wild. The only two remaining northern white rhino are kept under 24-hour guard in Ol Pejeta Conservancy in Kenya. Black rhinos have doubled in number over the past two decades from their low point of fewer than 2,500 individuals, but total numbers are still a fraction of the estimated 100,000 that existed in the early part of the 20th century.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Polar Bear</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/polar-bear/</link>
+        <pubDate>Wed, 14 Jul 2021 19:43:47 +0530</pubDate>
+        
+        <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/polar-bear/</guid>
+        <description>&lt;img src="https://c402277.ssl.cf1.rackcdn.com/photos/18695/images/hero_full/Polar_bear_on_ice_in_Svalbard_Norway_WW294883.jpg" alt="Featured image of post Polar Bear" /&gt;&lt;p&gt;The largest bear in the world and the Arctic&amp;rsquo;s top predator, polar bears are a powerful symbol of the strength and endurance of the Arctic. The polar bear&amp;rsquo;s Latin name, Ursus maritimus, means &amp;ldquo;sea bear.&amp;rdquo; It&amp;rsquo;s an apt name for this majestic species, which spends much of its life in, around, or on the ocean–predominantly on the sea ice. In the United States, Alaska is home to two polar bear subpopulations.&lt;/p&gt;
+&lt;p&gt;Considered talented swimmers, polar bears can sustain a pace of six miles per hour by paddling with their front paws and holding their hind legs flat like a rudder. They have a thick layer of body fat and a water-repellent coat that insulates them from the cold air and water.&lt;/p&gt;
+&lt;p&gt;Polar bears spend over 50% of their time hunting for food. A polar bear might catch only one or two out of 10 seals it hunts, depending on the time of year and other variables. Their diet mainly consists of ringed and bearded seals because they need large amounts of fat to survive.&lt;/p&gt;
+&lt;p&gt;Polar bears rely heavily on sea ice for traveling, hunting, resting, mating and, in some areas, maternal dens. But because of ongoing and potential loss of their sea ice habitat resulting from climate change–the primary threat to polar bears Arctic-wide–polar bears were listed as a threatened species in the US under the Endangered Species Act in May 2008. As their sea ice habitat recedes earlier in the spring and forms later in the fall, polar bears are increasingly spending longer periods on land, where they are often attracted to areas where humans live.&lt;/p&gt;
+&lt;p&gt;The survival and the protection of the polar bear habitat are urgent issues for WWF. In October 2019, the International Union for the Conservation of Nature  &lt;a class=&#34;link&#34; href=&#34;http://pbsg.npolar.no/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(IUCN) Polar Bear Specialist Group&lt;/a&gt;  released a  &lt;a class=&#34;link&#34; href=&#34;https://arcticwwf.org/newsroom/stories/polar-bear-assessment-brings-good-and-troubling-news/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;new assessment&lt;/a&gt;  of polar bear populations showing that the number of polar bear subpopulations experience recent declines has increased to four, with eight populations still being data-deficient. The good news is that five populations are stable while two have been experiencing an upward trend.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Fun Facts:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;40kph: The polar bear&amp;rsquo;s top speed&lt;/li&gt;
+&lt;li&gt;42 razor sharp teeth: With jagged back teeth and canines larger than grizzly teeth, they pack quite the bite&lt;/li&gt;
+&lt;li&gt;30 cm wide paws: The size of a dinner plate! A natural snowshoe that helps the bear trek across treacherous ice and deep snow&lt;/li&gt;
+&lt;li&gt;3 eyelids: The third helps protect the bear&amp;rsquo;s eyes from the elements&lt;/li&gt;
+&lt;li&gt;4 inches of fat: Under the bear&amp;rsquo;s skin to keep it warm&lt;/li&gt;
+&lt;li&gt;Black skin&lt;/li&gt;
+&lt;li&gt;Transparent fur&lt;/li&gt;
+&lt;li&gt;Blue tongue&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>Giant Panda</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/giant-panda/</link>
+        <pubDate>Wed, 14 Jul 2021 19:42:56 +0530</pubDate>
+        
+        <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/giant-panda/</guid>
+        <description>&lt;img src="https://c402277.ssl.cf1.rackcdn.com/photos/18315/images/hero_full/Medium_WW230176.jpg" alt="Featured image of post Giant Panda" /&gt;&lt;p&gt;The panda, with its distinctive black and white coat, is adored by the world and considered a national treasure in China. This bear also has a special significance for WWF because it has been our logo since our founding in 1961.&lt;/p&gt;
+&lt;p&gt;Pandas live mainly in temperate forests high in the mountains of southwest China, where they subsist almost entirely on bamboo. They must eat around 26 to 84 pounds of it every day, depending on what part of the bamboo they are eating. They use their enlarged wrist bones that function as opposable thumbs.&lt;/p&gt;
+&lt;p&gt;A newborn panda is about the size of a stick of butter—about 1/900th the size of its mother—but females can grow up to about 200 pounds, while males can grow up to about 300 pounds as adults. These bears are excellent tree climbers despite their bulk.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Tiger</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/tiger/</link>
+        <pubDate>Tue, 14 Jul 2020 19:42:33 +0530</pubDate>
+        
+        <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/tiger/</guid>
+        <description>&lt;img src="https://c402277.ssl.cf1.rackcdn.com/photos/18134/images/hero_full/Medium_WW226365.jpg" alt="Featured image of post Tiger" /&gt;&lt;p&gt;There are two recognized subspecies of tiger*: the continental (_Panthera tigris tigris_) and the Sunda (_Panthera tigris sondaica_). The largest of all the Asian big cats, tigers rely primarily on sight and sound rather than smell for hunting. They typically hunt alone and stalk prey. A tiger can consume more than 80 pounds of meat at one time. On average, tigers give birth to two to four cubs every two years. If all the cubs in one litter die, a second litter may be produced within five months.&lt;/p&gt;
+&lt;p&gt;Tigers generally gain independence at around two years of age and attain sexual maturity at age three or four for females and four or five years for males. Juvenile mortality is high, however—about half of all cubs do not survive more than two years. Tigers have been known to reach up to 20 years of age in the wild.&lt;/p&gt;
+&lt;p&gt;Males of the larger subspecies, the continental tiger, may weigh up to 660 pounds. For males of the smaller subspecies—the Sunda tiger—the upper range is at around 310 pounds. Within both subspecies, males are heavier than females.&lt;/p&gt;
+&lt;p&gt;Tigers are mostly solitary, apart from associations between mother and offspring. Individual tigers have a large territory, and the size is determined mostly by the availability of prey. Individuals mark their domain with urine, feces, rakes, scrapes, and vocalizing.&lt;/p&gt;
+&lt;p&gt;Across their range, tigers face unrelenting pressures from poaching, retaliatory killings, and habitat loss. They are forced to compete for space with dense and often growing human populations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;_*New Subspecies Classifications&lt;br&gt;
+_&lt;/strong&gt;&lt;em&gt;Since 2017, IUCN has recognized two tiger subspecies, commonly referred to as the continental tiger and the Sunda island tiger. All remaining island tigers are found only in Sumatra, with tigers in Java and Bali now extinct. These are popularly known as Sumatran tigers. The continental tigers currently include the Bengal, Malayan, Indochinese and Amur (Siberian) tiger populations, while the Caspian tiger is extinct in the wild. The South China tiger is believed to be functionally extinct&lt;/em&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>White Tiger</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/white-tiger/</link>
+        <pubDate>Tue, 14 Jul 2020 19:42:08 +0530</pubDate>
+        
+        <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/white-tiger/</guid>
+        <description>&lt;img src="https://c402277.ssl.cf1.rackcdn.com/photos/21168/images/story_full_width/Medium_WW1155961.jpg" alt="Featured image of post White Tiger" /&gt;&lt;h2 id=&#34;1white-tigers-are-falsely-marketed-as-a-highly-endangered-species&#34;&gt;1.White tigers are falsely marketed as a highly endangered species&lt;/h2&gt;
+&lt;p&gt;White tigers are not a separate subspecies of tiger. There is only one tiger species and only two recognized subspecies in the world—the Continental (Panthera tigris tigris) and the Sunda (Panthera tigris sondaica). The color of the white tiger&amp;rsquo;s fur is the result of a genetic mutation called leucism. In fact, this white coat would be a hindrance in the wild, as it doesn’t provide a tiger with any camouflage, which greatly reduces their chance of survival.&lt;/p&gt;
+&lt;h2 id=&#34;2-white-tigers-in-captivity-exist-due-to-inbreeding&#34;&gt;2. White tigers in captivity exist due to inbreeding&lt;/h2&gt;
+&lt;p&gt;The white tiger is a result of a rare genetic mutation and the most efficient way to breed them is by using two tigers who have the recessive genes needed to produce offspring with a white coat. In captive breeding facilities these two individuals are often related, making inbreeding common. In the US, all white tigers originate from a single male white continental tiger which was imported to the country decades ago.&lt;/p&gt;
+&lt;h2 id=&#34;3-inbred-tigers-are-unhealthy-tigers&#34;&gt;3. Inbred tigers are unhealthy tigers&lt;/h2&gt;
+&lt;p&gt;Inbreeding all tigers, not just white tigers, is common in captive facilities and inbred animals suffer from a range of significant health problems. Common issues include spinal deformities, defective organs, and immune deficiencies. Instead of admiring the color of the tigers’ coats, we should be asking ourselves why these tigers are here in the first place, instead of in the wild.&lt;/p&gt;
+&lt;h2 id=&#34;4-these-animals-are-often-bred-for-cash-not-conservation&#34;&gt;4. These animals are often bred for cash, not conservation&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;https://c402277.ssl.cf1.rackcdn.com/photos/21171/images/magazine_small/Medium_WW1125406.jpg?1624388970&#34; alt=&#34;Two tiger cubs laying on towels in a cage next to piglets &#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;Captive tiger cubs, including white tiger cubs, generate a large amount of revenue for the facilities that own them, and that funding often  &lt;a class=&#34;link&#34; href=&#34;https://www.aza.org/aza-news-releases/posts/joint-statement-on-tiger-farms-by-aza-and-conservation-ngos?locale=en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;does not reach the field conservation projects they say that they support&lt;/a&gt;. Small tiger cubs are relatively easy to care for, but the constant stream of new cubs needed by many facilities for photo ops or cub handling for paying customers creates a bigger problem when they reach adulthood. Adult tigers are expensive to care for and require larger and more secure enclosures. To reduce their numbers, some captive facilities kill their tigers once they reach adulthood and sell their parts to supply  &lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/stories/how-the-us-and-europe-help-fuel-the-illegal-tiger-trade&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;the illegal tiger trade&lt;/a&gt;,  &lt;a class=&#34;link&#34; href=&#34;https://www.aza.org/aza-news-releases/posts/joint-statement-on-tiger-farms-by-aza-and-conservation-ngos?locale=en&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;making a profit for a second time&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The reality of the situation is that white tigers aren’t an endangered species, their white coat is simply the result of a genetic anomaly which doesn&amp;rsquo;t require conservation. And as long as captive facilities continue to supply tigers, their parts and products into the illegal trade which fuels the demand for tiger products, wild tigers will always be at risk.&lt;/p&gt;
+&lt;p&gt;In the US, WWF is calling for more centralized oversight of the large captive tiger population to ensure they can’t supply the illegal trade.  &lt;a class=&#34;link&#34; href=&#34;https://www.worldwildlife.org/press-releases/wwf-statement-on-u-s-senate-introduction-of-big-cat-public-safety-act&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;The Big Cat Public Safety Act&lt;/a&gt;  has been introduced in both Houses of Congress and WWF is lobbying with an array of partners for its passage. In Asia, especially China, Laos, Thailand, and Viet Nam where over 8,000 tigers are estimated to be in captivity,  &lt;a class=&#34;link&#34; href=&#34;https://tigers.panda.org/news_and_stories/stories/what_i_saw_at_a_chinese_tiger_farm_/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;WWF is calling on governments to commit to phasing out tiger farms&lt;/a&gt;  and instituting clear bans on trade in tigers and their parts and products, from any source, wild or captive.&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Gorilla</title>
+        <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/gorilla/</link>
+        <pubDate>Sun, 14 Jul 2019 19:43:34 +0530</pubDate>
+        
+        <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/gorilla/</guid>
+        <description>&lt;img src="https://c402277.ssl.cf1.rackcdn.com/photos/18330/images/hero_full/Mountain_Gorilla_Silverback_WW22557.jpg" alt="Featured image of post Gorilla" /&gt;&lt;p&gt;Gorillas are gentle giants and display many human-like behaviors and emotions, such as laughter and sadness. In fact, gorillas share 98.3% of their genetic code with humans, making them our closest cousins after chimpanzees and bonobos. The largest of the great apes, gorillas are stocky animals with broad chests and shoulders, large, human-like hands, and small eyes set into hairless faces. The two gorilla species live in equatorial Africa, separated by about 560 miles of Congo Basin forest. Each has a lowland and upland subspecies. Gorillas live in family groups of usually five to 10, but sometimes two to more than 50, led by a dominant adult male—or silverback—who holds his position for years. The bond between the silverback and his females forms the basis of gorilla social life. Females become sexually mature around seven or eight years old but don’t begin to breed until a couple of years later. Males mature at an even greater age. Once a female begins to breed, she&amp;rsquo;ll likely give birth to only one baby every four to six years and only three or four over her entire lifetime. This low rate of reproduction makes it difficult for gorillas to recover from population declines. Both gorilla species have been decreasing in numbers for decades, and a 2010 United Nations report suggests that they may disappear from large parts of the Congo Basin by the mid-2020s.&lt;/p&gt;
+&lt;p&gt;Conservation efforts by WWF, other organizations, and governments are making a difference for gorillas. New protected areas are being designated for some gorilla populations, and the population of mountain gorillas has continued to increase in recent years, leading to its downlisting from Critically Endangered to Endangered in November 2018.&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

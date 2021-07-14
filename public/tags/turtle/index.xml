@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>turtle on Jackson HUGO Example</title>
+    <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/tags/turtle/</link>
+    <description>Recent content in turtle on Jackson HUGO Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jul 2021 19:44:20 +0530</lastBuildDate><atom:link href="http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/tags/turtle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sea Turtle</title>
+      <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/sea-turtle/</link>
+      <pubDate>Wed, 14 Jul 2021 19:44:20 +0530</pubDate>
+      
+      <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/sea-turtle/</guid>
+      <description>Seven different species of sea (or marine) turtles grace our ocean waters, from the shallow seagrass beds of the Indian Ocean, to the colorful reefs of the Coral Triangle and the sandy beaches of the Eastern Pacific. While these highly migratory species periodically come ashore to either bask or nest, sea turtles spend the bulk of their lives in the ocean. WWF&amp;rsquo;s work on sea turtles focuses on five of those species: green, hawksbill, loggerhead, leatherback, and olive ridley.</description>
+    </item>
+    
+  </channel>
+</rss>

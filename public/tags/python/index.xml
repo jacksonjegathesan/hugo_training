@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Jackson HUGO Example</title>
+    <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/tags/python/</link>
+    <description>Recent content in python on Jackson HUGO Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jul 2021 20:21:20 +0530</lastBuildDate><atom:link href="http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basics Python</title>
+      <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/basics-python/</link>
+      <pubDate>Wed, 14 Jul 2021 20:21:20 +0530</pubDate>
+      
+      <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/basics-python/</guid>
+      <description>Python Variables A variable is a named location used to store data in the memory. It is helpful to think of variables as a container that holds data that can be changed later in the program. For example,
+number = 10 Here, we have created a variable named number. We have assigned the value 10 to the variable.
+You can think of variables as a bag to store books in it and that book can be replaced at any time.</description>
+    </item>
+    
+  </channel>
+</rss>

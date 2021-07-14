@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>land on Jackson HUGO Example</title>
+    <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/tags/land/</link>
+    <description>Recent content in land on Jackson HUGO Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jul 2021 19:43:57 +0530</lastBuildDate><atom:link href="http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/tags/land/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rhino</title>
+      <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/rhino/</link>
+      <pubDate>Wed, 14 Jul 2021 19:43:57 +0530</pubDate>
+      
+      <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/rhino/</guid>
+      <description>Rhinos once roamed many places throughout Europe, Asia, and Africa and were known to early Europeans who depicted them in cave paintings. At the beginning of the 20th century, 500,000 rhinos roamed Africa and Asia. By 1970, rhino numbers dropped to 70,000, and today, around 27,000 rhinos remain in the wild. Very few rhinos survive outside national parks and reserves due to persistent poaching and habitat loss over many decades. Three species of rhino—black, Javan, and Sumatran—are critically endangered.</description>
+    </item>
+    
+    <item>
+      <title>Polar Bear</title>
+      <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/polar-bear/</link>
+      <pubDate>Wed, 14 Jul 2021 19:43:47 +0530</pubDate>
+      
+      <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/polar-bear/</guid>
+      <description>The largest bear in the world and the Arctic&amp;rsquo;s top predator, polar bears are a powerful symbol of the strength and endurance of the Arctic. The polar bear&amp;rsquo;s Latin name, Ursus maritimus, means &amp;ldquo;sea bear.&amp;rdquo; It&amp;rsquo;s an apt name for this majestic species, which spends much of its life in, around, or on the ocean–predominantly on the sea ice. In the United States, Alaska is home to two polar bear subpopulations.</description>
+    </item>
+    
+    <item>
+      <title>Tiger</title>
+      <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/tiger/</link>
+      <pubDate>Tue, 14 Jul 2020 19:42:33 +0530</pubDate>
+      
+      <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/tiger/</guid>
+      <description>There are two recognized subspecies of tiger*: the continental (_Panthera tigris tigris_) and the Sunda (_Panthera tigris sondaica_). The largest of all the Asian big cats, tigers rely primarily on sight and sound rather than smell for hunting. They typically hunt alone and stalk prey. A tiger can consume more than 80 pounds of meat at one time. On average, tigers give birth to two to four cubs every two years.</description>
+    </item>
+    
+    <item>
+      <title>White Tiger</title>
+      <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/white-tiger/</link>
+      <pubDate>Tue, 14 Jul 2020 19:42:08 +0530</pubDate>
+      
+      <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/white-tiger/</guid>
+      <description>1.White tigers are falsely marketed as a highly endangered species White tigers are not a separate subspecies of tiger. There is only one tiger species and only two recognized subspecies in the world—the Continental (Panthera tigris tigris) and the Sunda (Panthera tigris sondaica). The color of the white tiger&amp;rsquo;s fur is the result of a genetic mutation called leucism. In fact, this white coat would be a hindrance in the wild, as it doesn’t provide a tiger with any camouflage, which greatly reduces their chance of survival.</description>
+    </item>
+    
+    <item>
+      <title>Gorilla</title>
+      <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/gorilla/</link>
+      <pubDate>Sun, 14 Jul 2019 19:43:34 +0530</pubDate>
+      
+      <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/gorilla/</guid>
+      <description>Gorillas are gentle giants and display many human-like behaviors and emotions, such as laughter and sadness. In fact, gorillas share 98.3% of their genetic code with humans, making them our closest cousins after chimpanzees and bonobos. The largest of the great apes, gorillas are stocky animals with broad chests and shoulders, large, human-like hands, and small eyes set into hairless faces. The two gorilla species live in equatorial Africa, separated by about 560 miles of Congo Basin forest.</description>
+    </item>
+    
+  </channel>
+</rss>

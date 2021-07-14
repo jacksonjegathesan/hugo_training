@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>panda on Jackson HUGO Example</title>
+    <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/tags/panda/</link>
+    <description>Recent content in panda on Jackson HUGO Example</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Jul 2021 19:42:56 +0530</lastBuildDate><atom:link href="http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/tags/panda/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giant Panda</title>
+      <link>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/giant-panda/</link>
+      <pubDate>Wed, 14 Jul 2021 19:42:56 +0530</pubDate>
+      
+      <guid>http://jacksonhugotraining.s3-website.us-east-2.amazonaws.com/p/giant-panda/</guid>
+      <description>The panda, with its distinctive black and white coat, is adored by the world and considered a national treasure in China. This bear also has a special significance for WWF because it has been our logo since our founding in 1961.
+Pandas live mainly in temperate forests high in the mountains of southwest China, where they subsist almost entirely on bamboo. They must eat around 26 to 84 pounds of it every day, depending on what part of the bamboo they are eating.</description>
+    </item>
+    
+  </channel>
+</rss>
